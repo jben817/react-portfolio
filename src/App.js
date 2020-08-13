@@ -13,13 +13,10 @@ function App() {
     <BrowserRouter basename="/react-portfolio">
     <div className="App"> 
     <Navbartab></Navbartab>
-    <Route exact path="/" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/projects" component={Projects} />
-
-   
+    <Route exact path="/react-portfolio" component={About} />
+        <Route path="/react-portfolio/contact" component={Contact} />
+        <Route path="/react-portfolio/projects" component={Projects} />
     </div>
-    
     </BrowserRouter>
   );
 }
