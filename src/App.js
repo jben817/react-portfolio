@@ -10,7 +10,7 @@ import Navbartab from './components/Navbartab';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-portfolio">
     <div className="App"> 
     <Navbartab></Navbartab>
     <Route exact path="/" component={About} />
