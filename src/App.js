@@ -8,14 +8,15 @@ import Navbartab from './components/Navbartab';
 
 
 
+
 function App() {
   return (
-    <BrowserRouter basename="/react-portfolio">
+    <BrowserRouter >
     <div className="App"> 
     <Navbartab></Navbartab>
     <Route exact path="/react-portfolio" component={About} />
-        <Route path="/react-portfolio/contact" component={Contact} />
-        <Route path="/react-portfolio/projects" component={Projects} />
+        <Route path="/react-portfolio/Contact" component={Contact} />
+        <Route path="/react-portfolio/Projects" component={Projects} />
     </div>
     </BrowserRouter>
   );
